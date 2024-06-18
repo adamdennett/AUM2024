@@ -58,13 +58,22 @@ put all of your images inside the images folder
 
 ## Claude Slide #4
 
-## Maria Slide #1
+## Maria: Transport equity
+- Equity (as distinct from equality)
+- Equity is reduction of vulnerability
 
-## Maria Slide #2
+## Maria: Equity, vulnerability, and flexibility
+- Vulnerability can be seen through the lens of flexibility capacity, as opposed to traditional time or money vulnerability: see diagram
+- [diagram to have money/time links]
+- Many facets of flexibility
 
-## Maria Slide #3
+## Maria: Car dependency
+- Car dependency is a manifestation of low mode choice flexibility capacity
+- Individual vs trip dependency
+- Structural vs conscious dependency (structural is forced car ownership)
 
-## Maria Slide #4
+
+## Maria: Agent-based modelling
 
 ## Tom Slide #1
 
