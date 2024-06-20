@@ -38,6 +38,8 @@ This paper will report on our progress to date in each of these three domains wh
 
 ## Claude: Pathways to SENZCAR
 
+![](images/big.png)
+
 ##  {background-image="images/gag1.png"}
 
 ##  {background-image="images/ingredient1.png"}
@@ -47,27 +49,52 @@ This paper will report on our progress to date in each of these three domains wh
 ## Pathways to SENZCAR
 
 ::: r-fit-text
-Pathways to Socially Equitable Net Zero Cities and Regions
+Pathways to...
+\
+\
+
+**S**ocially **E**quitable 
+
+**N**et **Z**ero **C**ities **a**nd **R**egions
 :::
 
 ## Four Seasons of SENZCAR
 
--   Equity in transportation
--   Net Zero in transport planning
--   Cities and regions
--   Agent-based models
+::: r-fit-text
+-   **Equity** in transportation
+-   **Net Zero** in transport planning
+-   Cities and **regions**
+-   Agent-based **models** 
+\
+:::
 
 ## Project brief
 
--   Project co-funded by Arup: the Transport East ABM
+:::: columns
 
--   Not making a new model
+::: {.column width="40%"}
+![](images/abm1.png)
+:::
 
--   Instead looking at what innovative things we can do with one that **already exists...**
+::: {.column width="60%"}
+::: r-fit-text
+-   Project co-funded by Arup:
 
--   In relation to questions of socioeconomic inequalities and net zero
+    the Transport East ABM
 
-![](images/abm1.png){height="30%" width="30%"}
+-   Not making a new model!
+
+-   Instead looking at what innovative things 
+
+    we can do with one that **already exists...**
+
+-   In relation to questions of socioeconomic 
+    
+    inequalities and net zero
+:::
+:::
+
+::::
 
 ## Innovative contribution
 
@@ -110,13 +137,15 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 ## Research methodology
 
--   Literature review (regional geography, “equity”, net zero, transport modelling)
+::: r-fit-text
+-   **Literature** synthesis (regional geography, “equity”, net zero, transport modelling) 
 
--   Interviews with transport practitioners (public sector / consultancy)
+-   **Interviews** with transport practitioners (public sector / consultancy)
 
--   Clustering from ABM output data, related to similar work on “DfT Personas”
+-   **Clustering** from ABM output data, related to similar work on “DfT Personas”
 
--   Development of equity indicators based on various outputs from ABM scenarios
+-   Development of **equity indicators** based on various outputs from ABM scenarios \
+:::
 
 ## Maria Slide #1
 
