@@ -56,10 +56,10 @@ Pathways to...\
 ## Four Seasons of SENZCAR
 
 ::: r-fit-text
--   **Equity** in transportation
--   **Net Zero** in transport planning
--   Cities and **regions**
--   Agent-based **models**\
+1.  **Equity** in transportation
+2.  **Net Zero** in transport planning
+3.  Cities and **regions**
+4.  Agent-based **models**\
 :::
 
 ## Project brief
@@ -202,33 +202,31 @@ individuals in transport, perform in relation to reaching **net zero**?
 ::: r-fit-text
 -   Car dependency is a manifestation of low mode choice flexibility capacity
 
-    +-----------------+------------------------------------------------------+
-    | Dependency      | Description                                          |
-    +=================+======================================================+
-    | Individual      | A person is dependent on their private vehicle       |
-    |                 |                                                      |
-    |                 | in general                                           |
-    +-----------------+------------------------------------------------------+
-    | Trip-based      | Certain journeys are dependent on private vehicles   |
-    |                 |                                                      |
-    |                 | e.g. large shopping trips or escorting others        |
-    +-----------------+------------------------------------------------------+
-    | Structural      | Physical dependency on private vehicles              |
-    |                 |                                                      |
-    |                 | e.g. disability or lack of provision of alternatives |
-    +-----------------+------------------------------------------------------+
-    | Conscious       | Perceived dependency on private vehicles             |
-    |                 |                                                      |
-    |                 | e.g. habit, convenience, preference                  |
-    +-----------------+------------------------------------------------------+
+    +----------------+------------------------------------------------------+
+    | Dependency     | Description                                          |
+    +================+======================================================+
+    | Individual     | A person is dependent on their private vehicle       |
+    |                |                                                      |
+    |                | in general                                           |
+    +----------------+------------------------------------------------------+
+    | Trip-based     | Certain journeys are dependent on private vehicles   |
+    |                |                                                      |
+    |                | e.g. large shopping trips or escorting others        |
+    +----------------+------------------------------------------------------+
+    | Structural     | Physical dependency on private vehicles              |
+    |                |                                                      |
+    |                | e.g. disability or lack of provision of alternatives |
+    +----------------+------------------------------------------------------+
+    | Conscious      | Perceived dependency on private vehicles             |
+    |                |                                                      |
+    |                | e.g. habit, convenience, preference                  |
+    +----------------+------------------------------------------------------+
 :::
 
 ## Quantitative modelling of flexibility
 
 ::: r-fit-text
- 
-
--   In this transport transition, we need to understand how people's vulnerability (flexibility) is affected
+-   Lack of robust quantitative analysis if equity impacts in transport transition
 
  
 
