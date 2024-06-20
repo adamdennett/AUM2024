@@ -32,9 +32,9 @@ This paper will report on our progress to date in each of these three domains wh
 
 -   Vision to develop and communicate to a wide audience a robust science around the applied urban modelling that the City Modelling Lab in Arup provides to clients across the UK and in other counties.
 -   Where Arup's models and tooling are developed with, primarily, client-centred outcomes in mind, our academic motivation is to delve deeper and more critically into (initially) topics such as:
-    -   the modelling/policy/decision making dynamics and interactions between client and consultant that lead to regional transport decisions being made.
+    -   the modelling/policy/decision making dynamics and interactions between client and consultant that lead to regional transport decisions being made.How and why are regional transport models used? Critical evaluation of what can and can't be achieved with them.
     -   equity considerations around the transition from fossil-fueled to electric private vehicles, incorporating a better, micro-level activity-based understanding of car dependency and the potential mitigating or exacerbating effects that new technologies like vehicle-to-grid charging may present.
-    -   developing a deep understanding of the ways in which complex, agent-based behavioural models such as MATSIMs can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.
+    -   developing a deep understanding of the ways in which complex, agent-based behaviourally orientated transport models (such as MATSIMs) can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.
 
 ## Claude: Pathways to SENZCAR
 
