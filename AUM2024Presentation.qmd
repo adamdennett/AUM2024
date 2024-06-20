@@ -34,29 +34,78 @@ This paper will report on our progress to date in each of these three domains wh
 -   Where Arup's models and tooling are developed with, primarily, client-centred outcomes in mind, our academic motivation is to delve deeper and more critically into (initially) topics such as:
     -   the modelling/policy/decision making dynamics and interactions between client and consultant that lead to regional transport decisions being made.
     -   equity considerations around the transition from fossil-fueled to electric private vehicles, incorporating a better, micro-level activity-based understanding of car dependency and the potential mitigating or exacerbating effects that new technologies like vehicle-to-grid charging may present.
-    -   developing a deep understanding of the ways in which complex, agent-based behavioural models such as MATSIMs can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provsion in different urban and regional settings. 
+    -   developing a deep understanding of the ways in which complex, agent-based behavioural models such as MATSIMs can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.
 
+## Claude: Pathways to SENZCAR
 
+## {background-image=images/gag1.png}
 
-## Claude Slide #1
+## {background-image=images/ingredient1.png}
 
--   Bullet Points like this
+## {background-image=images/ingredient2.png}
 
-Pictures like this
+## Pathways to SENZCAR
 
-![](images/casa_480.png)
+::: {.r-fit-text}
+Pathways to Socially Equitable Net Zero Cities and Regions
+:::
 
-put all of your images inside the images folder
+## Four Seasons of SENZCAR
 
-## Claude Slide #2
+[(the below formatting is not working!! I want the four seasons to take up the whole page; the code below SHOULD do that)]: #
 
--   loads more info on how to set your slides up here:
+::: {.r-fit-text}
+- Equity in Transportation
+- Net Zero
+- Cities and Regions
+- Agent-based models
+:::
 
-<https://quarto.org/docs/presentations/>
+## Project brief
 
-## Claude Slide #3
+-   Project co-funded by Arup: the Transport East ABM
 
-## Claude Slide #4
+-   Not making a new model
+
+-   instead looking at what innovative things we can do with one that **already exists...**
+
+-   In relation to questions of socioeconomic inequalities and net zero
+
+![](images/abm1.png){height=30% width=30%}
+
+## Innovative contribution
+
+*'Less methods looking for problems, rather the other way round' - Alex Singleton, 2024*
+
+-   We need to consider what transport interaction models are built to do, and **why it is** that a given model is the best way of answering a question.
+
+-   The value of 'person-based measures' (Geurs and Van Wee, 2011) and emergent behaviours (Crooks et al., 2019: p. 8)
+
+-   Regional geography paradigm: linking Sub-National Transport Bodies and transport interventions from ABMs
+
+-   In the context of a very tight funding environment
+
+[want to move this over so text is left, img is right; please assist?]: #
+
+![](images/all_STBs.png){align=right height=40% width=40%}
+
+## Research question
+
+[(the below formatting is not working!! I want the research q to take up the whole page; the code below SHOULD do that)]: #
+
+::: {.r-fit-text}
+How do the **simulated** **regional** transport planning interventions that are likely to be the most persuasive in securing government funding, and the most effective in suppressing unacceptable **inequities** between individuals in transport, perform in relation to reaching **net zero**?
+:::
+
+## Research methodology
+
+-   Literature review (regional geography, “equity”, net zero, transport modelling)
+
+-   Interviews with transport practitioners (public sector / consultancy)
+
+-   Clustering from ABM output data, related to similar work on “DfT personas”
+
+-   Development of equity indicators based on various outputs from ABM scenarios
 
 ## Maria Slide #1
 
