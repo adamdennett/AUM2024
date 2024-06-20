@@ -36,7 +36,6 @@ This paper will report on our progress to date in each of these three domains wh
     -   equity considerations around the transition from fossil-fueled to electric private vehicles, incorporating a better, micro-level activity-based understanding of car dependency and the potential mitigating or exacerbating effects that new technologies like vehicle-to-grid charging may present.
     -   developing a deep understanding of the ways in which complex, agent-based behaviourally orientated transport models (such as MATSIMs) can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.
 
-
 ##  {background-image="images/gag1.png"}
 
 ##  {background-image="images/ingredient1.png"}
@@ -46,11 +45,10 @@ This paper will report on our progress to date in each of these three domains wh
 ## Pathways to SENZCAR
 
 ::: r-fit-text
-Pathways to...
-\
+Pathways to...\
 \
 
-**S**ocially **E**quitable 
+**S**ocially **E**quitable
 
 **N**et **Z**ero **C**ities **a**nd **R**egions
 :::
@@ -61,14 +59,12 @@ Pathways to...
 -   **Equity** in transportation
 -   **Net Zero** in transport planning
 -   Cities and **regions**
--   Agent-based **models** 
-\
+-   Agent-based **models**\
 :::
 
 ## Project brief
 
-:::: columns
-
+::: columns
 ::: {.column width="40%"}
 ![](images/abm1.png)
 :::
@@ -81,26 +77,24 @@ Pathways to...
 
 -   Not making a new model!
 
--   Instead looking at what innovative things 
+-   Instead looking at what innovative things
 
     we can do with one that **already exists...**
 
--   In relation to questions of socioeconomic 
-    
+-   In relation to questions of socioeconomic
+
     inequalities and net zero
 :::
 :::
-
-::::
+:::
 
 ## Innovative contribution
 
-:::: columns
+::: columns
 ::: {.column width="60%"}
-
 \
 
-***'Less methods looking for problems, rather the other way round'*** 
+***'Less methods looking for problems, rather the other way round'***
 
 Alex Singleton, 2024
 
@@ -118,16 +112,16 @@ Alex Singleton, 2024
 ::: {.column width="40%"}
 ![](images/all_STBs.png)
 :::
-::::
+:::
 
 ## Research question
 
 ::: r-fit-text
-How do the **simulated** **regional** transport planning interventions that 
+How do the **simulated** **regional** transport planning interventions that
 
-are likely to be the most persuasive in securing government funding, 
+are likely to be the most persuasive in securing government funding,
 
-and the most effective in suppressing unacceptable **inequities** between 
+and the most effective in suppressing unacceptable **inequities** between
 
 individuals in transport, perform in relation to reaching **net zero**?
 :::
@@ -135,17 +129,18 @@ individuals in transport, perform in relation to reaching **net zero**?
 ## Research methodology
 
 ::: r-fit-text
--   **Literature** synthesis (regional geography, “equity”, net zero, transport modelling) 
+-   **Literature** synthesis (regional geography, "equity", net zero, transport modelling)
 
 -   **Interviews** with transport practitioners (public sector / consultancy)
 
--   **Clustering** from ABM output data, related to similar work on “DfT Personas”
+-   **Clustering** from ABM output data, related to similar work on "DfT Personas"
 
--   Development of **equity indicators** based on various outputs from ABM scenarios \
+-   Development of **equity indicators** based on various outputs from ABM scenarios\
 :::
 
-## Maria: Transport equity and decarbonisation
+## Transport equity and decarbonisation
 
+::: r-fit-text
 -   In the UK, 26% of emissions in 2021 came from the transport sector (57% from private vehicle use)
 
 -   Transport is a key driver for socio-economic improvement, social inclusion, and wellbeing
@@ -155,14 +150,29 @@ individuals in transport, perform in relation to reaching **net zero**?
 -   Poorest 10% of people receive around half the transport subsidy as the richest 10% (per household)
 
 -   Equity (outcome) as distinct from equality (opportunity)
+:::
 
-## Maria: Equity, vulnerability, and flexibility
+## Equity, vulnerability, and flexibility
+
+::: columns
+::: {.column width="60%"}
+\
 
 -   Vulnerability can be seen through the lens of flexibility capacity
 
+\
+
 -   We can consider flexibility to be a form of capital, much like money or time
 
+\
+
 -   Many facets of flexibility
+\
+:::
+::: {.column width="40%"}
+![](images/maria_capitals.jpg)
+:::
+:::
 
 ## Flexibility framework
 
@@ -181,26 +191,57 @@ individuals in transport, perform in relation to reaching **net zero**?
 ```{=html}
 <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
 ```
-## Maria: Car dependency
+## Car dependency
 
+::: r-fit-text
 -   Car dependency is a manifestation of low mode choice flexibility capacity
 
-    | Dependency | Description                                                                                      |
-    |--------------------|----------------------------------------------------|
-    | Individual | A person is dependent on their private vehicle in general                                        |
-    | Trip-based | Certain journeys are dependent on private vehicles e.g. large shopping trips or escorting others |
-    | Structural | Physical dependency on private vehicles e.g. disability or lack of provision of alternatives     |
-    | Conscious  | Perceived dependency on private vehicles e.g. habit, convenience, preference                     |
+    +-------------------+------------------------------------------------------+
+    | Dependency        | Description                                          |
+    +===================+======================================================+
+    | Individual        | A person is dependent on their private vehicle       |
+    |                   |                                                      |
+    |                   | in general                                           |
+    +-------------------+------------------------------------------------------+
+    | Trip-based        | Certain journeys are dependent on private vehicles   |
+    |                   |                                                      |
+    |                   | e.g. large shopping trips or escorting others        |
+    +-------------------+------------------------------------------------------+
+    | Structural        | Physical dependency on private vehicles              |
+    |                   |                                                      |
+    |                   | e.g. disability or lack of provision of alternatives |
+    +-------------------+------------------------------------------------------+
+    | Conscious         | Perceived dependency on private vehicles             |
+    |                   |                                                      |
+    |                   | e.g. habit, convenience, preference                  |
+    +-------------------+------------------------------------------------------+
+    |                   |                                                      |
+    |                   |                                                      |
+    |                   |                                                      |
+    +-------------------+------------------------------------------------------+
+    
 
-## Maria: Quantitative modelling
+:::
 
+## Quantitative modelling of flexibility
+
+::: r-fit-text
+\ 
+ 
 -   In this transport transition, we need to understand how people's vulnerability (flexibility) is affected
+
+\ 
 
 -   Aim to inform which policies are most effective at delivering decarbonisation while maximizing equity
 
+\ 
+
 -   Use agent-based models to understand this with flexibility capability measured as a kind of utility score
 
+\ 
+
 -   Benefits over methods such as stated preference surveys
+:::
 
 ## Tom Slide #1
 
