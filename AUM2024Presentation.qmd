@@ -86,7 +86,13 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 ## Research question
 
 ::: r-fit-text
-How do the **simulated** **regional** transport planning interventions that are likely to be the most persuasive in securing government funding, and the most effective in suppressing unacceptable **inequities** between individuals in transport, perform in relation to reaching **net zero**?
+How do the **simulated** **regional** transport planning interventions that 
+
+are likely to be the most persuasive in securing government funding, 
+
+and the most effective in suppressing unacceptable **inequities** between 
+
+individuals in transport, perform in relation to reaching **net zero**?
 :::
 
 ## Research methodology
