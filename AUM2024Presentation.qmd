@@ -52,9 +52,9 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 
 ## Four Seasons of SENZCAR
 
--   Equity in Transportation
--   Net Zero
--   Cities and Regions
+-   Equity in transportation
+-   Net Zero in transport planning
+-   Cities and regions
 -   Agent-based models
 
 ## Project brief
@@ -63,7 +63,7 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 
 -   Not making a new model
 
--   instead looking at what innovative things we can do with one that **already exists...**
+-   Instead looking at what innovative things we can do with one that **already exists...**
 
 -   In relation to questions of socioeconomic inequalities and net zero
 
@@ -75,7 +75,7 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 ::: {.column width="60%"}
 *'Less methods looking for problems, rather the other way round' - Alex Singleton, 2024*
 
--   We need to consider what transport interaction models are built to do, and **why it is** that a given model is the best way of answering a question.
+-   We need to consider what transport interaction models are built to do, and **why it is** that a given model is the best way of analysing a problem.
 
 -   The value of 'person-based measures' (Geurs and Van Wee, 2011) and emergent behaviours (Crooks et al., 2019: p. 8)
 
