@@ -71,7 +71,7 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 
 ## Innovative contribution
 
-::: columns
+:::: columns
 ::: {.column width="60%"}
 *'Less methods looking for problems, rather the other way round' - Alex Singleton, 2024*
 
@@ -87,7 +87,7 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 ::: {.column width="40%"}
 ![](images/all_STBs.png)
 :::
-:::
+::::
 
 ## Research question
 
