@@ -73,7 +73,14 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 
 :::: columns
 ::: {.column width="60%"}
-*'Less methods looking for problems, rather the other way round' - Alex Singleton, 2024*
+
+\
+
+***'Less methods looking for problems, rather the other way round'*** 
+
+Alex Singleton, 2024
+
+\
 
 -   We need to consider what transport interaction models are built to do, and **why it is** that a given model is the best way of analysing a problem.
 
