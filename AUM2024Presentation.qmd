@@ -143,13 +143,21 @@ individuals in transport, perform in relation to reaching **net zero**?
 ::: r-fit-text
 -   In the UK, 26% of emissions in 2021 came from the transport sector (57% from private vehicle use)
 
+\ 
+
 -   Transport is a key driver for socio-economic improvement, social inclusion, and wellbeing
 
     -   Electric private vehicles are **not** the answer
+    
+\ 
 
 -   Poorest 10% of people receive around half the transport subsidy as the richest 10% (per household)
 
--   Equity (outcome) as distinct from equality (opportunity)
+\  
+
+-   **RQ**: How do we transition to a decarbonised transport system in the most equitable way?
+
+    -   Equity (outcome) as distinct from equality (opportunity)
 :::
 
 ## Equity, vulnerability, and flexibility
