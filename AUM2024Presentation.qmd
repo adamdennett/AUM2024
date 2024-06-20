@@ -226,7 +226,7 @@ individuals in transport, perform in relation to reaching **net zero**?
 ## Quantitative modelling of flexibility
 
 ::: r-fit-text
--   Lack of robust quantitative analysis if equity impacts in transport transition
+-   Lack of robust quantitative analysis of equity impacts in transport transition
 
  
 
