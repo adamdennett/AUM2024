@@ -38,30 +38,24 @@ This paper will report on our progress to date in each of these three domains wh
 
 ## Claude: Pathways to SENZCAR
 
-## {background-image=images/gag1.png}
+##  {background-image="images/gag1.png"}
 
-## {background-image=images/ingredient1.png}
+##  {background-image="images/ingredient1.png"}
 
-## {background-image=images/ingredient2.png}
+##  {background-image="images/ingredient2.png"}
 
 ## Pathways to SENZCAR
 
-::: {.r-fit-text}
+::: r-fit-text
 Pathways to Socially Equitable Net Zero Cities and Regions
 :::
 
 ## Four Seasons of SENZCAR
 
-[(This is TOO BIG!)]: #
-
-::: {.r-fit-text}
-- Equity in Transportation
-- Net Zero
-- Cities and Regions
-- Agent-based models
-
-
-:::
+-   Equity in Transportation
+-   Net Zero
+-   Cities and Regions
+-   Agent-based models
 
 ## Project brief
 
@@ -73,7 +67,7 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 
 -   In relation to questions of socioeconomic inequalities and net zero
 
-![](images/abm1.png){height=30% width=30%}
+![](images/abm1.png){height="30%" width="30%"}
 
 ## Innovative contribution
 
@@ -87,15 +81,11 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 
 -   In the context of a very tight funding environment
 
-[want to move this over so text is left, img is right; please assist?]: #
-
-![](images/all_STBs.png){align=right height=40% width=40%}
+![](images/all_STBs.png){align="right" height="40%" width="40%"}
 
 ## Research question
 
-[(the below formatting is not working!! I want the research q to take up the whole page; the code below SHOULD do that, like it did for the four seasons...)]: #
-
-::: {.r-fit-text}
+::: r-fit-text
 How do the **simulated** **regional** transport planning interventions that are likely to be the most persuasive in securing government funding, and the most effective in suppressing unacceptable **inequities** between individuals in transport, perform in relation to reaching **net zero**?
 :::
 
