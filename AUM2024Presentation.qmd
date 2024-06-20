@@ -24,7 +24,7 @@ slide-number: true
 
 In this paper we introduce some preliminary work which represents a collaborative research endeavour between the Centre for Advanced Spatial Analysis at UCL and the Arup City Modelling Lab. While considerations of equity in transport are not new (Banister, 2018; Cao et al., 2019; Pereira et al., 2017) as transport systems will need to rapidly evolve to meet international legally-binding net-zero carbon emissions targets, understanding what this transition might look like and how we can build models and scenarios to better understand where the biggest challenges lie and who stands to benefit or lose out the most is of crucial importance.
 
-In this work we are exploring this space from three different but complementary and overlapping perspectives: firstly, from the perspective of policy-makers – specifically sub-national transport authorities in the UK and in particular Transport East. In this work we are exploring critically how the decision-making process is facilitated though the use of large, agent-based transport models and how effective or otherwise these tools can be in practice. Our second perspective takes the globally dominant mode of transport – the car – and will explore the social equity implications of the emerging shift to electric vehicles in the UK, looking at who the likely winners and losers in this transition might be and potentially how new technologies like vehicle-to-grid charging might ameliorate or exacerbate the social challenges that will emerge. Our third perspective zooms in on public transport and in particular buses, and looks at how large agent-based transport models can be employed and enhanced with new artificial intelligence methods to test and indeed suggest a range of competing scenarios and policies that maximise the benefits of this hugely important mode of transport.
+In this work we are exploring this space from three different but complementary and overlapping perspectives: firstly, from the perspective of policy-makers -- specifically sub-national transport authorities in the UK and in particular Transport East. In this work we are exploring critically how the decision-making process is facilitated though the use of large, agent-based transport models and how effective or otherwise these tools can be in practice. Our second perspective takes the globally dominant mode of transport -- the car -- and will explore the social equity implications of the emerging shift to electric vehicles in the UK, looking at who the likely winners and losers in this transition might be and potentially how new technologies like vehicle-to-grid charging might ameliorate or exacerbate the social challenges that will emerge. Our third perspective zooms in on public transport and in particular buses, and looks at how large agent-based transport models can be employed and enhanced with new artificial intelligence methods to test and indeed suggest a range of competing scenarios and policies that maximise the benefits of this hugely important mode of transport.
 
 This paper will report on our progress to date in each of these three domains whilst also reviewing the current state of the union in terms of the relevant methodological and policy spaces and looking to where we hope to make impact in the near future.
 
@@ -36,9 +36,6 @@ This paper will report on our progress to date in each of these three domains wh
     -   equity considerations around the transition from fossil-fueled to electric private vehicles, incorporating a better, micro-level activity-based understanding of car dependency and the potential mitigating or exacerbating effects that new technologies like vehicle-to-grid charging may present.
     -   developing a deep understanding of the ways in which complex, agent-based behaviourally orientated transport models (such as MATSIMs) can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.
 
-## Claude: Pathways to SENZCAR
-
-![](images/big.png)
 
 ##  {background-image="images/gag1.png"}
 
@@ -147,13 +144,63 @@ individuals in transport, perform in relation to reaching **net zero**?
 -   Development of **equity indicators** based on various outputs from ABM scenarios \
 :::
 
-## Maria Slide #1
+## Maria: Transport equity and decarbonisation
 
-## Maria Slide #2
+-   In the UK, 26% of emissions in 2021 came from the transport sector (57% from private vehicle use)
 
-## Maria Slide #3
+-   Transport is a key driver for socio-economic improvement, social inclusion, and wellbeing
 
-## Maria Slide #4
+    -   Private vehicles are **not** the answer
+
+-   Poorest 10% of people receive around half the transport subsidy as the richest 10% (per household)
+
+-   Equity (outcome) as distinct from equality (opportunity)
+
+## Maria: Equity, vulnerability, and flexibility
+
+-   Vulnerability can be seen through the lens of flexibility capacity
+
+-   We can consider flexibility to be a form of capital, much like money or time
+
+-   Many facets of flexibility
+
+## Flexibility framework
+
+<!-- ![](images/maria_framework.jpg){fig-align="center" width="693" height="487"} -->
+
+<iframe width="1516" height="864" src="https://miro.com/app/live-embed/uXjVNZ_4nvo=/?moveToViewport=19667,13377,9913,7328&amp;embedId=438926443139" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen>
+
+</iframe>
+
+## Private vehicle registrations
+
+<iframe title="Registrations of all new cars in the UK" aria-label="Interactive area chart" id="datawrapper-chart-8qZ4u" src="https://datawrapper.dwcdn.net/8qZ4u/24/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="523" data-external="1">
+
+</iframe>
+
+```{=html}
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+```
+## Maria: Car dependency
+
+-   Car dependency is a manifestation of low mode choice flexibility capacity
+
+    | Dependency | Description                                                                                      |
+    |--------------------|----------------------------------------------------|
+    | Individual | A person is dependent on their private vehicle in general                                        |
+    | Trip-based | Certain journeys are dependent on private vehicles e.g. large shopping trips or escorting others |
+    | Structural | Physical dependency on private vehicles e.g. disability or lack of provision of alternatives     |
+    | Conscious  | Perceived dependency on private vehicles e.g. habit, convenience, preference                     |
+
+## Maria: Quantitative modelling
+
+-   In this transport transition, we need to understand how people's vulnerability (flexibility) is affected
+
+-   Aim to inform which policies are most effective at delivering decarbonisation while maximizing equity
+
+-   Use agent-based models to understand this with flexibility capability measured as a kind of utility score
+
+-   Benefits over methods such as stated preference surveys
 
 ## Tom Slide #1
 
