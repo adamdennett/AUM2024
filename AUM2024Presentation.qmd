@@ -305,8 +305,16 @@ individuals in transport, perform in relation to reaching **net zero**?
 :::
 
 ::: {style="width: 50%;"}
-![View of Sheffield](images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg) ![Bus in use](images/dial_a_ride.jpeg)
+![View of Sheffield](images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg){width="70%"} ![Bus in use](images/dial_a_ride.jpeg){width="70%"}
 :::
 :::
 
 ## Conclusions
+
+-   Still in the early stages of our exploration in all of these topics, but all three PhD projects represent slightly different but complementary perspectives on the same broad challenge - decarbonising our transport system while keeping social considerations front-and-centre.
+
+-   Always tempting to view any new innovation (regional ABMs for transport planning, transition to electric cars, generative AI for scheduling and routing) as potential silver bullets to challenging problems, but fully evaluating pros and cons needs time and space.
+
+-   Consultancy world often ahead of academic world in developing quick/plausible solutions to challenges posed by clients. But narrow delivery focus rarely allows for deeper evaluation or experimentation that academics are afforded the time to explore.
+
+-   CASA/Arup PhD projects hopefully go some way to bridging this gap - watch this space!
