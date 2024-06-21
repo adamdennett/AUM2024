@@ -36,6 +36,10 @@ This paper will report on our progress to date in each of these three domains wh
     -   equity considerations around the transition from fossil-fueled to electric private vehicles, incorporating a better, micro-level activity-based understanding of car dependency and the potential mitigating or exacerbating effects that new technologies like vehicle-to-grid charging may present.
     -   developing a deep understanding of the ways in which complex, agent-based behaviourally orientated transport models (such as MATSIMs) can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.
 
+## Pathways to Senzcar
+
+![](images/big.png)
+
 ##  {background-image="images/gag1.png"}
 
 ##  {background-image="images/ingredient1.png"}
