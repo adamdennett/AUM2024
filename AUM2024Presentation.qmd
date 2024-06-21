@@ -285,11 +285,6 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 \![\]images/londinium-pt-network.png){height="30%" width="30%"}
 
----
-title: "Going Forward"
-format: pdf
----
-
 # Going Forward
 
 ::: {style="display: flex; justify-content: space-between;"}
