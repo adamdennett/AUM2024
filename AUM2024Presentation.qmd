@@ -71,12 +71,11 @@ Pathways to Socially Equitable Net Zero Cities and Regions
 
 ## Innovative contribution
 
-:::: columns
+::: columns
 ::: {.column width="60%"}
-
 \
 
-***'Less methods looking for problems, rather the other way round'*** 
+***'Less methods looking for problems, rather the other way round'***
 
 Alex Singleton, 2024
 
@@ -94,16 +93,16 @@ Alex Singleton, 2024
 ::: {.column width="40%"}
 ![](images/all_STBs.png)
 :::
-::::
+:::
 
 ## Research question
 
 ::: r-fit-text
-How do the **simulated** **regional** transport planning interventions that 
+How do the **simulated** **regional** transport planning interventions that
 
-are likely to be the most persuasive in securing government funding, 
+are likely to be the most persuasive in securing government funding,
 
-and the most effective in suppressing unacceptable **inequities** between 
+and the most effective in suppressing unacceptable **inequities** between
 
 individuals in transport, perform in relation to reaching **net zero**?
 :::
@@ -126,12 +125,84 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 ## Maria Slide #4
 
-## Tom Slide #1
+# Flipping Modelling on its head
 
-## Tom Slide #2
+<div style="display: flex; justify-content: space-between;">
 
-## Tom Slide #3
+<div style="width: 50%;">
 
-## Tom Slide #4
+- Can AI be used to generate equitable policies while optimizing for Net-Zero?
+Many policies are conceived from a person then model, why not let the model develop the policy?
+
+-Equity and Net-Zero: Buses!
+Low-income population most likely to use and rely on buses.
+
+## State of Buses
+
+- **Privatisation** - Crash in bus ridership and route availability.
+- **£2 fare** – Introduced to increase ridership since COVID-19.
+- **Bus Franchising** – Devolution of transport to combined authorities.
+
+</div>
+
+<div style="width: 50%;">
+
+![City buses in motion](images/lachlan-gowen-RZ5TKFpdaWM-unsplash.jpg)
+
+</div>
+
+</div>
+
+
+## Toy Model Outline
+
+Using Matsim – Agent Based Modelling 
+Londinium model - Semi synthetic dataset with 100 agents covering Fulham, Chelsea, Battersea and South Kensington.
+Developed by Arup, open access
+Policy Ideas Tested: Schedule changes, fare/road pricing, 
+Scenario Testing: Tube/Bus Strike 
+Measures: Travel Time, VkT, Mode Share
+
+
+
+![]images/londinium-pt-network.png){height="30%" width="30%"}
+
+
+---
+title: "Going Forward"
+format: pdf
+---
+
+# Going Forward
+
+<div style="display: flex; justify-content: space-between;">
+
+<div style="width: 50%;">
+
+## Implement lessons learnt into a calibrated Sheffield model.
+
+- Demand Responsive Transport – Flexible transport options
+
+## Implementation of AI:
+
+- Bus scheduling (Ai, G. et al. (2022))
+- Express Bus Routes (Rodriguez J. et al. (2022))
+- Network Changes
+
+## Equity Measures
+
+- Can we develop metrics outside of traditional transport metrics (Mode Share, Travel Time) to measure equity?
+
+</div>
+
+<div style="width: 50%;">
+
+![View of Sheffield](images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg)
+![Bus in use](images/dial_a_ride.jpeg)
+
+</div>
+
+</div>
+
 
 ## Conclusions
