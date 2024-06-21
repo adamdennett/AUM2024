@@ -247,46 +247,43 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 # Flipping Modelling on its head
 
-<div style="display: flex; justify-content: space-between;">
+**Can AI be used to generate equitable policies while optimizing for Net-Zero?**
 
-<div style="width: 50%;">
+-   Rationale: Climate Change, Net Zero Targets, High Wealth Inequality
 
-- Can AI be used to generate equitable policies while optimizing for Net-Zero?
-Many policies are conceived from a person then model, why not let the model develop the policy?
+-   Many policies are conceived from a person then model, why not let the model develop the policy?
 
--Equity and Net-Zero: Buses!
-Low-income population most likely to use and rely on buses.
+-   Equity and Net-Zero: Buses!
+
+    -   Low-income population most likely to use and rely on buses.
 
 ## State of Buses
 
-- **Privatisation** - Crash in bus ridership and route availability.
-- **£2 fare** – Introduced to increase ridership since COVID-19.
-- **Bus Franchising** – Devolution of transport to combined authorities.
+-   **Privatisation** - Crash in bus ridership and route availability.
+-   **£2 fare** – Introduced to increase ridership since COVID-19.
+-   **Bus Franchising** – Devolution of transport to combined authorities. :::
 
-</div>
+![City buses in motion](images/bus_data.svg) :::
 
-<div style="width: 50%;">
-
-![City buses in motion](images/lachlan-gowen-RZ5TKFpdaWM-unsplash.jpg)
-
-</div>
-
-</div>
-
+:::
 
 ## Toy Model Outline
 
-Using Matsim – Agent Based Modelling 
-Londinium model - Semi synthetic dataset with 100 agents covering Fulham, Chelsea, Battersea and South Kensington.
-Developed by Arup, open access
-Policy Ideas Tested: Schedule changes, fare/road pricing, 
-Scenario Testing: Tube/Bus Strike 
-Measures: Travel Time, VkT, Mode Share
+-   Using Matsim – Agent Based Modelling
 
+-   Londinium model - Semi synthetic dataset with 100 agents covering Fulham, Chelsea, Battersea and South Kensington.
 
+    -   Developed by Arup, open access
 
-![]images/londinium-pt-network.png){height="30%" width="30%"}
+-   Policy Ideas Tested: Schedule changes, fare/road pricing,
 
+-   Scenario Testing: Tube/Bus Strike
+
+-   Measures: Travel Time, VkT, Mode Share
+
+-   Purpose: Learn the model, what's possible and what's not
+
+\![\]images/londinium-pt-network.png){height="30%" width="30%"}
 
 ---
 title: "Going Forward"
@@ -295,34 +292,26 @@ format: pdf
 
 # Going Forward
 
-<div style="display: flex; justify-content: space-between;">
+::: {style="display: flex; justify-content: space-between;"}
+::: {style="width: 50%;"}
+-   Implement lessons learnt into a calibrated Sheffield model.
 
-<div style="width: 50%;">
+-   Demand Responsive Transport – Flexible transport options
 
-## Implement lessons learnt into a calibrated Sheffield model.
+-   Implementation of AI:
 
-- Demand Responsive Transport – Flexible transport options
+    -   Bus scheduling (Ai, G. et al. (2022))
 
-## Implementation of AI:
+    -   Express Bus Routes (Rodriguez J. et al. (2022))
 
-- Bus scheduling (Ai, G. et al. (2022))
-- Express Bus Routes (Rodriguez J. et al. (2022))
-- Network Changes
+    -   Network Changes
 
-## Equity Measures
+-   Equity Measures - Can we develop metrics outside of traditional transport metrics (Mode Share, Travel Time) to measure equity?
+:::
 
-- Can we develop metrics outside of traditional transport metrics (Mode Share, Travel Time) to measure equity?
-
-</div>
-
-<div style="width: 50%;">
-
-![View of Sheffield](images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg)
-![Bus in use](images/dial_a_ride.jpeg)
-
-</div>
-
-</div>
-
+::: {style="width: 50%;"}
+![View of Sheffield](images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg) ![Bus in use](images/dial_a_ride.jpeg)
+:::
+:::
 
 ## Conclusions
