@@ -8,7 +8,7 @@
 <link href="AUM2024Presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="AUM2024Presentation_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="AUM2024Presentation_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat">
   <meta name="dcterms.date" content="2024-06-21">
@@ -159,7 +159,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -343,14 +344,10 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 
   <p class="date">June 21, 2024</p>
 </section>
-<section id="original-abstract-ignore-this-slide---just-for-reference-while-be-piece-the-rest-together" class="slide level2">
-<h2>Original Abstract (ignore this slide - just for reference while be piece the rest together!)</h2>
-<p>In this paper we introduce some preliminary work which represents a collaborative research endeavour between the Centre for Advanced Spatial Analysis at UCL and the Arup City Modelling Lab. While considerations of equity in transport are not new (Banister, 2018; Cao et al., 2019; Pereira et al., 2017) as transport systems will need to rapidly evolve to meet international legally-binding net-zero carbon emissions targets, understanding what this transition might look like and how we can build models and scenarios to better understand where the biggest challenges lie and who stands to benefit or lose out the most is of crucial importance.</p>
-<p>In this work we are exploring this space from three different but complementary and overlapping perspectives: firstly, from the perspective of policy-makers – specifically sub-national transport authorities in the UK and in particular Transport East. In this work we are exploring critically how the decision-making process is facilitated though the use of large, agent-based transport models and how effective or otherwise these tools can be in practice. Our second perspective takes the globally dominant mode of transport – the car – and will explore the social equity implications of the emerging shift to electric vehicles in the UK, looking at who the likely winners and losers in this transition might be and potentially how new technologies like vehicle-to-grid charging might ameliorate or exacerbate the social challenges that will emerge. Our third perspective zooms in on public transport and in particular buses, and looks at how large agent-based transport models can be employed and enhanced with new artificial intelligence methods to test and indeed suggest a range of competing scenarios and policies that maximise the benefits of this hugely important mode of transport.</p>
-<p>This paper will report on our progress to date in each of these three domains whilst also reviewing the current state of the union in terms of the relevant methodological and policy spaces and looking to where we hope to make impact in the near future.</p>
-</section>
 <section id="brief-casaarup-lab-mission" class="slide level2">
 <h2>Brief CASA/Arup Lab mission</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
 <ul>
 <li>Vision to develop and communicate to a wide audience a robust science around the applied urban modelling that the City Modelling Lab in Arup provides to clients across the UK and in other counties.</li>
 <li>Where Arup’s models and tooling are developed with, primarily, client-centred outcomes in mind, our academic motivation is to delve deeper and more critically into (initially) topics such as:
@@ -360,6 +357,10 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 <li>developing a deep understanding of the ways in which complex, agent-based behaviourally orientated transport models (such as MATSIMs) can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.</li>
 </ul></li>
 </ul>
+</div><div class="column" style="width:20%;">
+<p><img data-src="images/CML_logo_CL.png"></p>
+</div>
+</div>
 </section>
 <section id="pathways-to-senzcar" class="slide level2">
 <h2>Pathways to Senzcar</h2>
@@ -580,25 +581,75 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 </ul>
 </div>
 </section>
-<section id="tom-slide-1" class="slide level2">
-<h2>Tom Slide #1</h2>
+<section>
+<section id="flipping-modelling-on-its-head" class="title-slide slide level1 center">
+<h1>Flipping Modelling on its head</h1>
+<p><strong>Can AI be used to generate equitable policies while optimizing for Net-Zero?</strong></p>
+<ul>
+<li><p>Rationale: Climate Change, Net Zero Targets, High Wealth Inequality</p></li>
+<li><p>Many policies are conceived from a person then model, why not let the model develop the policy?</p></li>
+<li><p>Equity and Net-Zero: Buses!</p>
+<ul>
+<li>Low-income population most likely to use and rely on buses.</li>
+</ul></li>
+</ul>
 </section>
-<section id="tom-slide-2" class="slide level2">
-<h2>Tom Slide #2</h2>
+<section id="state-of-buses" class="slide level2">
+<h2>State of Buses</h2>
+<ul>
+<li><strong>Privatisation</strong> - Crash in bus ridership and route availability.</li>
+<li><strong>£2 fare</strong> – Introduced to increase ridership since COVID-19.</li>
+<li><strong>Bus Franchising</strong> – Devolution of transport to combined authorities. :::</li>
+</ul>
+<p><img data-src="images/bus_data.svg" alt="City buses in motion"> :::</p>
+<p>:::</p>
 </section>
-<section id="tom-slide-3" class="slide level2">
-<h2>Tom Slide #3</h2>
-</section>
-<section id="tom-slide-4" class="slide level2">
-<h2>Tom Slide #4</h2>
+<section id="toy-model-outline" class="slide level2">
+<h2>Toy Model Outline</h2>
+<ul>
+<li><p>Using Matsim – Agent Based Modelling</p></li>
+<li><p>Londinium model - Semi synthetic dataset with 100 agents covering Fulham, Chelsea, Battersea and South Kensington.</p>
+<ul>
+<li>Developed by Arup, open access</li>
+</ul></li>
+<li><p>Policy Ideas Tested: Schedule changes, fare/road pricing,</p></li>
+<li><p>Scenario Testing: Tube/Bus Strike</p></li>
+<li><p>Measures: Travel Time, VkT, Mode Share</p></li>
+<li><p>Purpose: Learn the model, what’s possible and what’s not</p></li>
+</ul>
+<p><img data-src="images/londinium-pt-network.png" style="width:30.0%;height:30.0%"></p>
+</section></section>
+<section>
+<section id="going-forward" class="title-slide slide level1 center">
+<h1>Going Forward</h1>
+<div style="display: flex; justify-content: space-between;">
+<div style="width: 50%;">
+<ul>
+<li><p>Implement lessons learnt into a calibrated Sheffield model.</p></li>
+<li><p>Demand Responsive Transport – Flexible transport options</p></li>
+<li><p>Implementation of AI:</p>
+<ul>
+<li><p>Bus scheduling (Ai, G. et al.&nbsp;(2022))</p></li>
+<li><p>Express Bus Routes (Rodriguez J. et al.&nbsp;(2022))</p></li>
+<li><p>Network Changes</p></li>
+</ul></li>
+<li><p>Equity Measures - Can we develop metrics outside of traditional transport metrics (Mode Share, Travel Time) to measure equity?</p></li>
+</ul>
+</div>
+<div style="width: 50%;">
+<p><img data-src="images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg" alt="View of Sheffield"> <img data-src="images/dial_a_ride.jpeg" alt="Bus in use"></p>
+</div>
+</div>
 </section>
 <section id="conclusions" class="slide level2">
 <h2>Conclusions</h2>
-
-<img src="images/University_College_London_logo.svg" class="slide-logo r-stretch"><div class="footer footer-default">
+<div class="quarto-auto-generated-content">
+<p><img src="images/University_College_London_logo.svg" class="slide-logo"></p>
+<div class="footer footer-default">
 <p><a href="https://github.com/adamdennett/AUM2024" class="uri">https://github.com/adamdennett/AUM2024</a></p>
 </div>
-</section>
+</div>
+</section></section>
     </div>
   </div>
 
@@ -626,7 +677,6 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': true,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -888,10 +938,27 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -901,8 +968,17 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -916,7 +992,11 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

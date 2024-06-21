@@ -20,21 +20,21 @@ editor: visual
 slide-number: true
 ---
 
-## Original Abstract (ignore this slide - just for reference while be piece the rest together!)
-
-In this paper we introduce some preliminary work which represents a collaborative research endeavour between the Centre for Advanced Spatial Analysis at UCL and the Arup City Modelling Lab. While considerations of equity in transport are not new (Banister, 2018; Cao et al., 2019; Pereira et al., 2017) as transport systems will need to rapidly evolve to meet international legally-binding net-zero carbon emissions targets, understanding what this transition might look like and how we can build models and scenarios to better understand where the biggest challenges lie and who stands to benefit or lose out the most is of crucial importance.
-
-In this work we are exploring this space from three different but complementary and overlapping perspectives: firstly, from the perspective of policy-makers -- specifically sub-national transport authorities in the UK and in particular Transport East. In this work we are exploring critically how the decision-making process is facilitated though the use of large, agent-based transport models and how effective or otherwise these tools can be in practice. Our second perspective takes the globally dominant mode of transport -- the car -- and will explore the social equity implications of the emerging shift to electric vehicles in the UK, looking at who the likely winners and losers in this transition might be and potentially how new technologies like vehicle-to-grid charging might ameliorate or exacerbate the social challenges that will emerge. Our third perspective zooms in on public transport and in particular buses, and looks at how large agent-based transport models can be employed and enhanced with new artificial intelligence methods to test and indeed suggest a range of competing scenarios and policies that maximise the benefits of this hugely important mode of transport.
-
-This paper will report on our progress to date in each of these three domains whilst also reviewing the current state of the union in terms of the relevant methodological and policy spaces and looking to where we hope to make impact in the near future.
-
 ## Brief CASA/Arup Lab mission
 
+::: columns
+::: {.column width="80%"}
 -   Vision to develop and communicate to a wide audience a robust science around the applied urban modelling that the City Modelling Lab in Arup provides to clients across the UK and in other counties.
 -   Where Arup's models and tooling are developed with, primarily, client-centred outcomes in mind, our academic motivation is to delve deeper and more critically into (initially) topics such as:
     -   the modelling/policy/decision making dynamics and interactions between client and consultant that lead to regional transport decisions being made.How and why are regional transport models used? Critical evaluation of what can and can't be achieved with them.
     -   equity considerations around the transition from fossil-fueled to electric private vehicles, incorporating a better, micro-level activity-based understanding of car dependency and the potential mitigating or exacerbating effects that new technologies like vehicle-to-grid charging may present.
     -   developing a deep understanding of the ways in which complex, agent-based behaviourally orientated transport models (such as MATSIMs) can be used to inform decisions around the provision of public transit - particularly buses - in transport systems. And to explore how artificial intelligence tools might be applied in developing generative solutions to various aspects of bus provision in different urban and regional settings.
+:::
+
+::: {.column width="20%"}
+![](images/CML_logo_CL.png)
+:::
+:::
 
 ## Pathways to Senzcar
 
@@ -283,7 +283,7 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 -   Purpose: Learn the model, what's possible and what's not
 
-\![\]images/londinium-pt-network.png){height="30%" width="30%"}
+![](images/londinium-pt-network.png){height="30%" width="30%"}
 
 # Going Forward
 
