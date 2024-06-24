@@ -142,26 +142,28 @@ individuals in transport, perform in relation to reaching **net zero**?
 -   Development of **equity indicators** based on various outputs from ABM scenarios\
 :::
 
-## Transport equity and decarbonisation
+## Motivations: transport equity and decarbonisation
 
 ::: r-fit-text
--   In the UK, 26% of emissions in 2021 came from the transport sector (57% from private vehicle use)
+1.  Climate crisis
+\ 
 
- 
+    -   Climate emergency declared in 2019, must reach net zero by 2050
+    -   In the UK, 26% of emissions in 2021 came from the transport sector (57% from private vehicle use)
 
--   Transport is a key driver for socio-economic improvement, social inclusion, and wellbeing
+2. Transport and connectivity
+\ 
 
-    -   Electric private vehicles are **not** the answer
+    -   Transport is a key driver for socio-economic improvement, social inclusion, and wellbeing
 
- 
+3. Current transport inequalities
+\ 
 
--   Poorest 10% of people receive around half the transport subsidy as the richest 10% (per household)
+    -   Poorest 10% of people receive around half the transport subsidy as the richest 10% (per household)
+\ 
 
- 
+> How do we transition to a decarbonised transport system in the most equitable way?
 
--   **RQ**: How do we transition to a decarbonised transport system in the most equitable way?
-
-    -   Equity (outcome) as distinct from equality (opportunity)
 :::
 
 ## Equity, vulnerability, and flexibility
@@ -184,9 +186,9 @@ individuals in transport, perform in relation to reaching **net zero**?
 :::
 
 ::: {.column width="65%"}
-<iframe width="1516" height="864" src="https://miro.com/app/live-embed/uXjVNZ_4nvo=/?moveToViewport=8024,8953,14370,9125&embedId=63268582017" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<!-- <iframe width="1516" height="864" src="https://miro.com/app/live-embed/uXjVNZ_4nvo=/?moveToViewport=8024,8953,14370,9125&embedId=63268582017" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe> -->
 
-<!-- ![](images/maria_framework.jpg){fig-align="right" width="1000" } -->
+![](images/maria_framework3.jpg){fig-align="right" width="1000"}
 :::
 :::
 
