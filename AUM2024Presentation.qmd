@@ -276,17 +276,19 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 -   Purpose: Learn the model, what's possible and what's not
 
-![](images/londinium-pt-network.png){width="90%"}
+![](images/londinium-pt-network.png){width="100%"}
 
-# Toy Model Results
+# Model Results - Mode Share
 
-
-
-![](images/Distance.png){width="90%"}
-![](images/duration.png){width="90%"}
 ![](images/mode_share.png){width="90%"}
 
+# Model Results - Average Distance
 
+![](images/Distance.png){width="90%"}
+
+# Model Results - Average Duration
+
+ ![](images/duration.png){width="90%"}
 
 # Going Forward
 
