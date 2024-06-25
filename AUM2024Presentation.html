@@ -8,10 +8,10 @@
 <link href="AUM2024Presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="AUM2024Presentation_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="AUM2024Presentation_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.5.45">
 
   <meta name="author" content="Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat">
-  <meta name="dcterms.date" content="2024-06-24">
+  <meta name="dcterms.date" content="2024-06-25">
   <title>Social Equity Considerations in Modelling Transport Systems Transitioning to Net-Zero – Progress and Prospects</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -159,7 +159,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -341,7 +342,7 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
     </div>
 </div>
 
-  <p class="date">June 24, 2024</p>
+  <p class="date">June 25, 2024</p>
 </section>
 <section id="brief-casaarup-lab-mission" class="slide level2">
 <h2>Brief CASA/Arup Lab mission</h2>
@@ -506,7 +507,7 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 <!-- <iframe width="1516" height="864" src="https://miro.com/app/live-embed/uXjVNZ_4nvo=/?moveToViewport=8024,8953,14370,9125&embedId=63268582017" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe> -->
 <div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="images/maria_framework3.jpg" width="1000"></p>
+<p><img data-src="images/maria_framework3.jpg" class="quarto-figure quarto-figure-right" width="1000"></p>
 </figure>
 </div>
 </div>
@@ -523,7 +524,7 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 <div class="r-fit-text">
 <ul>
 <li><p>Car dependency is a manifestation of low mode choice flexibility capacity</p>
-<table>
+<table class="caption-top">
 <colgroup>
 <col style="width: 23%">
 <col style="width: 76%">
@@ -586,10 +587,12 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 <p><strong>Can AI be used to generate equitable policies while optimizing for Net-Zero?</strong></p>
 <ul>
 <li><p>Rationale: Climate Change, Net Zero Targets, High Wealth Inequality</p></li>
-<li><p>Many policies are conceived from a person then model, why not let the model develop the policy?</p></li>
+<li><p>Many policies are conceived from a person then modelled, why not let the model develop the policy?</p></li>
 <li><p>Equity and Net-Zero: Buses!</p>
 <ul>
 <li>Low-income population most likely to use and rely on buses.</li>
+<li>69% of Londoners earning under £20,000 use buses at least weekly, compared to 59% of all Londoners (Rosenberg, 2022).</li>
+<li>10% of all bus passengers are disabled (Rosenberg, 2022).</li>
 </ul></li>
 </ul>
 </section>
@@ -598,26 +601,41 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 <ul>
 <li><strong>Privatisation</strong> - Crash in bus ridership and route availability.</li>
 <li><strong>£2 fare</strong> – Introduced to increase ridership since COVID-19.</li>
-<li><strong>Bus Franchising</strong> – Devolution of transport to combined authorities. :::</li>
+<li><strong>Bus Franchising</strong> – Devolution of transport to combined authorities - Greater Manchester (2023), West Midlands (2025), Liverpool (2026)</li>
 </ul>
 <p><img data-src="images/bus_data.svg" alt="City buses in motion"> :::</p>
 <p>:::</p>
-</section>
-<section id="toy-model-outline" class="slide level2">
-<h2>Toy Model Outline</h2>
+</section></section>
+<section id="toy-model-outline" class="title-slide slide level1 center">
+<h1>Toy Model Outline</h1>
 <ul>
 <li><p>Using Matsim – Agent Based Modelling</p></li>
 <li><p>Londinium model - Semi synthetic dataset with 100 agents covering Fulham, Chelsea, Battersea and South Kensington.</p>
 <ul>
 <li>Developed by Arup, open access</li>
 </ul></li>
-<li><p>Policy Ideas Tested: Schedule changes, fare/road pricing,</p></li>
-<li><p>Scenario Testing: Tube/Bus Strike</p></li>
-<li><p>Measures: Travel Time, VkT, Mode Share</p></li>
+<li><p>Policy Ideas Tested: Free Buses, No Buses, No Tube, Increasing Car Cost</p></li>
+<li><p>Measures: Travel Time, Total Distance, Mode Share</p></li>
 <li><p>Purpose: Learn the model, what’s possible and what’s not</p></li>
 </ul>
-<p><img data-src="images/londinium-pt-network.png" style="width:30.0%;height:30.0%"></p>
-</section></section>
+
+<img data-src="images/londinium-pt-network.png" style="width:100.0%" class="r-stretch"></section>
+
+<section id="model-results---mode-share" class="title-slide slide level1 center">
+<h1>Model Results - Mode Share</h1>
+
+<img data-src="images/mode_share.png" style="width:90.0%" class="r-stretch"></section>
+
+<section id="model-results---average-distance" class="title-slide slide level1 center">
+<h1>Model Results - Average Distance</h1>
+
+<img data-src="images/Distance.png" style="width:90.0%" class="r-stretch"></section>
+
+<section id="model-results---average-duration" class="title-slide slide level1 center">
+<h1>Model Results - Average Duration</h1>
+
+<img data-src="images/duration.png" style="width:90.0%" class="r-stretch"></section>
+
 <section>
 <section id="going-forward" class="title-slide slide level1 center">
 <h1>Going Forward</h1>
@@ -648,9 +666,11 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
 <li><p>Consultancy world often ahead of academic world in developing quick/plausible solutions to challenges posed by clients. But narrow delivery focus rarely allows for deeper evaluation or experimentation that academics are afforded the time to explore.</p></li>
 <li><p>CASA/Arup PhD projects hopefully go some way to bridging this gap - watch this space!</p></li>
 </ul>
-
-<img src="images/University_College_London_logo.svg" class="slide-logo r-stretch"><div class="footer footer-default">
+<div class="quarto-auto-generated-content">
+<p><img src="images/University_College_London_logo.svg" class="slide-logo"></p>
+<div class="footer footer-default">
 <p><a href="https://github.com/adamdennett/AUM2024" class="uri">https://github.com/adamdennett/AUM2024</a></p>
+</div>
 </div>
 </section></section>
     </div>
@@ -680,7 +700,6 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': true,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -898,18 +917,7 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -941,11 +949,50 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -955,8 +1002,17 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -970,7 +1026,11 @@ Adam Dennett, Esra Suel, Gerry Casey, Maria Wood, Claude Lynch, Tom Murat
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
