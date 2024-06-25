@@ -268,10 +268,10 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 -   Using Matsim -- Agent Based Modelling
 
--   Londinium model - Semi synthetic dataset with 100 agents covering Fulham, Chelsea, Battersea and South Kensington.
+-   Londinium model - Semi synthetic dataset with 100 agents, each with a travel plan covering Fulham, Chelsea, Battersea and South Kensington.
 
     -   Developed by Arup, open access
-
+    
 -   Policy Ideas Tested: Free Buses, No Buses, No Tube, Increasing Car Cost
 
 -   Measures: Travel Time, Total Distance, Mode Share
