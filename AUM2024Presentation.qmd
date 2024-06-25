@@ -145,25 +145,20 @@ individuals in transport, perform in relation to reaching **net zero**?
 ## Motivations: transport equity and decarbonisation
 
 ::: r-fit-text
-1.  Climate crisis
-\ 
+1.  Climate crisis  
 
     -   Climate emergency declared in 2019, must reach net zero by 2050
     -   In the UK, 26% of emissions in 2021 came from the transport sector (57% from private vehicle use)
 
-2. Transport and connectivity
-\ 
+2.  Transport and connectivity  
 
     -   Transport is a key driver for socio-economic improvement, social inclusion, and wellbeing
 
-3. Current transport inequalities
-\ 
+3.  Current transport inequalities  
 
-    -   Poorest 10% of people receive around half the transport subsidy as the richest 10% (per household)
-\ 
+    -   Poorest 10% of people receive around half the transport subsidy as the richest 10% (per household)  
 
 > How do we transition to a decarbonised transport system in the most equitable way?
-
 :::
 
 ## Equity, vulnerability, and flexibility
@@ -251,7 +246,7 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 -   Rationale: Climate Change, Net Zero Targets, High Wealth Inequality
 
--   Many policies are conceived from a person then model, why not let the model develop the policy?
+-   Many policies are conceived from a person then modelled, why not let the model develop the policy?
 
 -   Equity and Net-Zero: Buses!
 
@@ -267,7 +262,7 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 :::
 
-## Toy Model Outline
+# Toy Model Outline
 
 -   Using Matsim -- Agent Based Modelling
 
@@ -275,15 +270,23 @@ individuals in transport, perform in relation to reaching **net zero**?
 
     -   Developed by Arup, open access
 
--   Policy Ideas Tested: Schedule changes, fare/road pricing,
+-   Policy Ideas Tested: Free Buses, No Buses, No Tube, Increasing Car Cost
 
--   Scenario Testing: Tube/Bus Strike
-
--   Measures: Travel Time, VkT, Mode Share
+-   Measures: Travel Time, Total Distance, Mode Share
 
 -   Purpose: Learn the model, what's possible and what's not
 
-![](images/londinium-pt-network.png){height="30%" width="30%"}
+![](images/londinium-pt-network.png){width="90%"}
+
+# Toy Model Results
+
+
+
+![](images/Distance.png){width="90%"}
+![](images/duration.png){width="90%"}
+![](images/mode_share.png){width="90%"}
+
+
 
 # Going Forward
 
