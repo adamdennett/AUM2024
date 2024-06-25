@@ -251,12 +251,14 @@ individuals in transport, perform in relation to reaching **net zero**?
 -   Equity and Net-Zero: Buses!
 
     -   Low-income population most likely to use and rely on buses.
+    -   69% of Londoners earning under £20,000 use buses at least weekly, compared to 59% of all Londoners (Rosenberg, 2022).
+    -   10% of all bus passengers are disabled (Rosenberg, 2022).
 
 ## State of Buses
 
 -   **Privatisation** - Crash in bus ridership and route availability.
 -   **£2 fare** -- Introduced to increase ridership since COVID-19.
--   **Bus Franchising** -- Devolution of transport to combined authorities. :::
+-   **Bus Franchising** -- Devolution of transport to combined authorities - Greater Manchester (2023), West Midlands (2025), Liverpool (2026)
 
 ![City buses in motion](images/bus_data.svg) :::
 
