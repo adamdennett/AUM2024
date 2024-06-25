@@ -104,7 +104,7 @@ Alex Singleton, 2024
 
 \
 
--   We need to consider what transport interaction models are built to do, and **why it is** that a given model is the best way of analysing a problem.
+-   We need to consider what transport models are built to do, and **why it is** that a given model is the best way of analysing a problem.
 
 -   The value of 'person-based measures' (Geurs and Van Wee, 2011) and emergent behaviours (Crooks et al., 2019: p. 8)
 
