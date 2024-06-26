@@ -40,12 +40,6 @@ slide-number: true
 
 ![](images/big.png)
 
-##  {background-image="images/gag1.png"}
-
-##  {background-image="images/ingredient1.png"}
-
-##  {background-image="images/ingredient2.png"}
-
 ## Pathways to SENZCAR
 
 ::: r-fit-text
@@ -165,19 +159,27 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 ::: columns
 ::: {.column width="35%"}
--   Equity can be seen as minimising transport vulnerability across the whole population
+:::r-fit-text
+-   Equity can be seen as minimising \
+transport vulnerability across  \
+the whole population
 
-\
 
--   We can consider flexibility to be a form of capital, much like money or time
 
-\
+-   We can consider flexibility to \
+be a form of capital, much \
+like money or time
 
--   Vulnerability can be seen through the lens of flexibility capacity
 
- 
 
--   Many facets of flexibility
+-   Vulnerability can be seen \
+through the lens of \
+flexibility capacity
+
+
+
+-   **Many facets of flexibility**
+:::
 :::
 
 ::: {.column width="65%"}
@@ -198,50 +200,48 @@ individuals in transport, perform in relation to reaching **net zero**?
 ```
 ## Car dependency
 
-::: r-fit-text
--   Car dependency is a manifestation of low mode choice flexibility capacity
+:::r-fit-text
 
-    +----------------+------------------------------------------------------+
-    | Dependency     | Description                                          |
-    +================+======================================================+
-    | Individual     | A person is dependent on their private vehicle       |
-    |                |                                                      |
-    |                | in general                                           |
-    +----------------+------------------------------------------------------+
-    | Trip-based     | Certain journeys are dependent on private vehicles   |
-    |                |                                                      |
-    |                | e.g. large shopping trips or escorting others        |
-    +----------------+------------------------------------------------------+
-    | Structural     | Physical dependency on private vehicles              |
-    |                |                                                      |
-    |                | e.g. disability or lack of provision of alternatives |
-    +----------------+------------------------------------------------------+
-    | Conscious      | Perceived dependency on private vehicles             |
-    |                |                                                      |
-    |                | e.g. habit, convenience, preference                  |
-    +----------------+------------------------------------------------------+
+
+**Car dependency is a manifestation of low mode choice flexibility capacity**
+
++----------------+-----------------------------------------------------------+
+| Dependency     | Description                                               |
++:===============+:==========================================================+
+| Individual     | A person is dependent on their private vehicle in general |
++----------------+-----------------------------------------------------------+
+| Trip-based     | Certain journeys are dependent on private vehicles        |
+|                |                                                           |
+|                | e.g. large shopping trips or escorting others             |
++----------------+-----------------------------------------------------------+
+| Structural     | Physical dependency on private vehicles                   |
+|                |                                                           |
+|                | e.g. disability or lack of provision of alternatives      |
++----------------+-----------------------------------------------------------+
+| Conscious      | Perceived dependency on private vehicles                  |
+|                |                                                           |
+|                | e.g. habit, convenience, preference                       |
++----------------+-----------------------------------------------------------+
 :::
 
 ## Quantitative modelling of flexibility
 
 ::: r-fit-text
--   Lack of robust quantitative analysis of equity impacts in transport transition
+-   Lack of robust quantitative analysis of equity\
+    impacts in transport transition
 
- 
+-   Aim to inform which policies are most effective at\
+    delivering decarbonisation while maximizing equity
 
--   Aim to inform which policies are most effective at delivering decarbonisation while maximizing equity
-
- 
-
--   Use agent-based models to understand this with flexibility capability measured as a kind of utility score
-
- 
+-   Use agent-based models to understand this with flexibility\
+    capability measured as a kind of utility score
 
 -   Benefits over methods such as stated preference surveys
 :::
 
 # Flipping Modelling on its head
 
+::: r-fit-text
 **Can AI be used to generate equitable policies while optimizing for Net-Zero?**
 
 -   Rationale: Climate Change, Net Zero Targets, High Wealth Inequality
@@ -253,22 +253,25 @@ individuals in transport, perform in relation to reaching **net zero**?
     -   Low-income population most likely to use and rely on buses.
     -   69% of Londoners earning under £20,000 use buses at least weekly, compared to 59% of all Londoners (Rosenberg, 2022).
     -   10% of all bus passengers are disabled (Rosenberg, 2022).
+:::
 
 ## State of Buses
 
+::: r-fit-text
 -   **Privatisation** - Crash in bus ridership and route availability.
 -   **£2 fare** -- Introduced to increase ridership since COVID-19.
--   **Bus Franchising** -- Devolution of transport to combined authorities - Greater Manchester (2023), West Midlands (2025), Liverpool (2026)
+-   **Bus Franchising** -- Devolution of transport to combined authorities -\
+     Greater Manchester (2023), West Midlands (2025), Liverpool (2026)
 
-![City buses in motion](images/bus_data.svg) :::
-
+![City buses in motion](images/bus_data.svg){fig-align="left" width="35%"}
 :::
 
 # Toy Model Outline
 
 -   Using Matsim -- Agent Based Modelling
 
--   Londinium model - Semi synthetic dataset with 100 agents covering Fulham, Chelsea, Battersea and South Kensington.
+-   Londinium model - Semi synthetic dataset with 100 agents covering Fulham,\
+    Chelsea, Battersea and South Kensington.
 
     -   Developed by Arup, open access
 
@@ -290,12 +293,13 @@ individuals in transport, perform in relation to reaching **net zero**?
 
 # Model Results - Average Duration
 
- ![](images/duration.png){width="90%"}
+![](images/duration.png){width="90%"}
 
 # Going Forward
 
 ::: {style="display: flex; justify-content: space-between;"}
 ::: {style="width: 50%;"}
+::: r-fit-text
 -   Implement lessons learnt into a calibrated Sheffield model.
 
 -   Demand Responsive Transport -- Flexible transport options
@@ -308,20 +312,31 @@ individuals in transport, perform in relation to reaching **net zero**?
 
     -   Network Changes
 
--   Equity Measures - Can we develop metrics outside of traditional transport metrics (Mode Share, Travel Time) to measure equity?
+-   Equity Measures - Can we develop metrics outside of\
+    traditional transport metrics (Mode Share, Travel Time)\
+    to measure equity?
+:::
 :::
 
-::: {style="width: 50%;"}
-![View of Sheffield](images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg){width="70%"} ![Bus in use](images/dial_a_ride.jpeg){width="70%"}
+::: {style="width: 45%;"}
+![View of Sheffield](images/benjamin-elliott-kTHZZE8o_10-unsplash.jpg){width="60%"} ![Bus in use](images/dial_a_ride.jpeg){width="60%"}
 :::
 :::
 
 ## Conclusions
 
--   Still in the early stages of our exploration in all of these topics, but all three PhD projects represent slightly different but complementary perspectives on the same broad challenge - decarbonising our transport system while keeping social considerations front-and-centre.
+::: r-fit-text
+-   Still in the early stages of our exploration in all of these topics, but all three PhD\
+    projects represent slightly different but complementary perspectives on the same broad\
+    challenge - decarbonising our transport system while keeping social considerations front-and-centre.
 
--   Always tempting to view any new innovation (regional ABMs for transport planning, transition to electric cars, generative AI for scheduling and routing) as potential silver bullets to challenging problems, but fully evaluating pros and cons needs time and space.
+-   Always tempting to view any new innovation (regional ABMs for transport planning,\
+    transition to electric cars, generative AI for scheduling and routing) as potential silver\
+    bullets to challenging problems, but fully evaluating pros and cons needs time and space.
 
--   Consultancy world often ahead of academic world in developing quick/plausible solutions to challenges posed by clients. But narrow delivery focus rarely allows for deeper evaluation or experimentation that academics are afforded the time to explore.
+-   Consultancy world often ahead of academic world in developing quick/plausible solutions\
+    to challenges posed by clients. But narrow delivery focus rarely allows for deeper\
+    evaluation or experimentation that academics are afforded the time to explore.
 
 -   CASA/Arup PhD projects hopefully go some way to bridging this gap - watch this space!
+:::
