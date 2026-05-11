@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+# Claude Code worktrees (never track these)
+.claude/
